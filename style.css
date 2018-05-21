@@ -1,6 +1,8 @@
 body{
   font-family: "Helvetica";
   background-color: #000060;
+  text-align: center;
+  vertical-align: middle;
 }
 .text{
   color: #ffffff;
@@ -16,14 +18,41 @@ body{
   padding: 2px 6px;
   border-radius: 50%;
 }
+.plusbutton:hover{
+     background-color: #00cc00;
+}
+.plusbutton:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
 .minusbutton{
   background-color: #ff1a1a;
   border: none;
   padding: 2px 7px;
   border-radius: 50%;
 }
+.minusbutton:hover{
+     background-color: #cc0000;
+}
+.minusbutton:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
 .button{
   background-color: #f2f2f2;
   border-color: #000060;
   padding: 8px 10px;
+  
+}
+.button:hover{
+     background-color: #cccccc;
+}
+.button:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+table{
+  margin: auto;
+  border: 1px solid white;
+  padding: 8px 8px;
 }
