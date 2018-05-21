@@ -40,10 +40,9 @@ body{
 }
 .button{
   background-color: #f2f2f2;
-  border-color: #000060;
+  border: none;
   padding: 8px 10px;
   width: 100px
-  
 }
 .button:hover{
      background-color: #cccccc;
